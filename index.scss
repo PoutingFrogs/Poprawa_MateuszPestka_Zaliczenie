@@ -1,0 +1,103 @@
+body {
+  background-color: ghostwhite;
+  width: 100%;
+}
+.onion {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: 600;
+  color: black;
+  float: left;
+}
+
+.imgBox {
+  margin-bottom: 5%;
+}
+.im1 {
+  width: 100%;
+}
+
+.im2 {
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 30%;
+  margin-left: 25%;
+  position: absolute;
+}
+h1 {
+  text-align: center;
+  margin-top: 25%;
+}
+h3 {
+  color: gray;
+  text-align: center;
+}
+
+.btn1 {
+  background-color: #3333ff;
+}
+.btn2 {
+  background-color: lightgray;
+}
+
+#buttons {
+  button {
+    border-radius: 10%;
+    margin-left: 20px;
+  }
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+#selectorButtons {
+  button {
+    border: none;
+    background-color: ghostwhite;
+    color: gray;
+  }
+  button:hover {
+    color: #3333ff;
+  }
+  display: flex;
+
+  .btn3 {
+    background-color: gray;
+    color: white;
+    margin-left: 20%;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .im1 {
+    width: 100%x;
+    height: 300px;
+  }
+
+  .im2 {
+    margin-top: 250px;
+    margin-left: 5%;
+  }
+
+  h1 {
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+  h3 {
+    color: gray;
+    text-align: left;
+    margin-left: 20%;
+  }
+  #buttons {
+    margin-top: 5%;
+    margin-left: 10px;
+  }
+
+  #selectorButtons {
+    .btn3 {
+      margin-left: 55%;
+    }
+  }
+}
